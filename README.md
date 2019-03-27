@@ -1,8 +1,6 @@
 # MapReduce Patterns
 
-This repo contains Hadoop mapreduce programs written in python and java. 
-
-The patterns in this repo includes: 
+Mapreduce programs have general patterns for batch processing. The patterns could be applied to abstract statistics from large dataset. Common patterns are summarized here for reuse, which includes: 
 * Filter
 * Top-N
 * Summariztion
@@ -48,6 +46,8 @@ cat testfile | ./mapper.py | sort | ./reducer.py
 ## Reference
 
 * Udacity Intro to Hadoop and MapReduce: [MOOC](https://www.udacity.com/course/intro-to-hadoop-and-mapreduce--ud617)
+* CISC5950 Big Data Programming: [Website](https://yingmao.github.io/cisc5950s19/)
 * CS246 Mining Massive Data Sets: [Website](http://web.stanford.edu/class/cs246/), [Video](https://www.youtube.com/channel/UC_Oao2FYkLAUlUVkBfze4jg/videos), [MOOC](https://lagunita.stanford.edu/courses/course-v1:ComputerScience+MMDS+SelfPaced/about), [Book](http://infolab.stanford.edu/~ullman/mmds/bookL.pdf)
 * Data-Intensive Text Processing with MapReduce: [Book](https://lintool.github.io/MapReduceAlgorithms/)
+
 
